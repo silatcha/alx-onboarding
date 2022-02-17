@@ -1,0 +1,38 @@
+
+n1 = input( "enter number")
+n2 = input ("enter number")
+n3 = input ("enter number")
+
+
+           if n1<=n2 and n1<=n3 then
+                if n2<=n3 then
+		   print(n1)
+		   print(n2)
+		   print(n3)	
+		else  
+		   print(n1)
+		   print(n3)
+		   print(n2)
+		endif
+           else if n1>=n2 and n2<=n3 then
+                if n1<=n3 then
+		   print(n2)
+		   print(n1)
+		   print(n3)	
+		else  
+		   print(n2)
+		   print(n3)
+		   print(n1)
+		endif
+	   else
+ 	        if n1<=n2 then
+		   print(n3)
+		   print(n1)
+		   print(n2)	
+		else  
+		   print(n3)
+		   print(n2)
+		   print(n1)
+		endif
+
+	   endif
