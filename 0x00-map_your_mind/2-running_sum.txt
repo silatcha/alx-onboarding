@@ -1,0 +1,10 @@
+
+n=0
+s=0
+while n>=0 then
+   n=input('enter number')
+    if n>=0 then
+       s=s+n
+    endif
+endwhile
+   print s
