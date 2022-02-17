@@ -1,0 +1,11 @@
+
+n=INPUT( 'enter a number')
+
+set s=0
+FOR i=1 to n 
+   s=s+i*i
+
+endFOR
+
+print s
+
